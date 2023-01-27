@@ -23,7 +23,7 @@ const UserSchema = new Schema({
         type: String,
         required: [true, "Role is required"],
         trim: true,
-        enum: ["Admin", "User"]
+        enum: ["admin", "user"]
     }
 });
 

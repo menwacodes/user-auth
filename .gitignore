@@ -2,6 +2,9 @@
 .env*
 next.config.js
 
+.env.local
+next.config.js
+
 # dependencies
 /node_modules
 /.pnp
